@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head';
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown'
 import CopyIcon from '../components/CopyIcon';
@@ -12,6 +13,9 @@ const Home: NextPage = () => {
   }
   return (
     <div className='w-9/12 mx-auto max-w-5xl pt-12 '>
+      <Head>
+        <title>Markdown to json string</title>
+      </Head>
       <h1 className='text-3xl font-semibold text-center'>Markdown to json string</h1>
       <div className='grid grid-cols-2 gap-12 pt-10'>
         <div className='flex-1'>
