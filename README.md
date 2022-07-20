@@ -8,7 +8,8 @@ This is a tool that helps you convert your markdown to an escaped version as a s
 
 ## Development
 
-### Install
+### Installing
+
 Install depencies before you can work with the project
 
 ```bash
@@ -16,6 +17,7 @@ npm install
 ```
 
 ### Executing
+
 First, run the development server:
 
 ```bash
@@ -24,3 +26,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## License
+
+[MIT][LICENSE]
